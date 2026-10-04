@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-// $host = 'localhost';
-// $dbname = 'swatwome_swri';
-// $username = 'swatwome_myuser';
-// $password = 'Ol40U29o+DO=T.uI';
-
 $host = 'localhost';
 $dbname = 'swatwome_swri';
-$username = 'root';
-$password = '';
+$username = 'swatwome_myuser';
+$password = 'Ol40U29o+DO=T.uI';
+
+// $host = 'localhost';
+// $dbname = 'swatwome_swri';
+// $username = 'root';
+// $password = '';
 
 try {
     $dsn = "mysql:host={$host};dbname={$dbname};charset=utf8mb4";
